@@ -65,7 +65,7 @@
 
   <h2>Executive Summary</h2>
   <p class="lead">Most managers want to be good at managing people. Under pressure, they rarely have the time or preparation to do it well - and it is the quality of one-to-ones, team meetings and appraisals that quietly decides whether a culture thrives or erodes.</p>
-  <p>ARIA is CEQ's AI Coaching Platform, built to close that gap. It is trained on the full body of CEQ's coaching and leadership IP, and layered with each client organisation's own culture, playbook, processes and people data. The result is an always-available coaching assistant that briefs every manager for the conversations that matter, prompts them in the moment, and raises the quality of every interaction to a standard they would rarely reach on their own. The platform is already built and in active use. What we need now is two partner organisations to take the next step with us.</p>
+  <p>ARIA is CEQ's AI Coaching Platform, built to close that gap. It is trained on the full body of CEQ's coaching and leadership IP, and layered with each client organisation's own culture, playbook, processes and people data. The result is an always-available coaching assistant that briefs every manager for the conversations that matter, critiques their real conversations through an interactive coaching review grounded in CEQ's methodology, and raises the quality of every interaction to a standard they would rarely reach on their own. The platform is already built and in active use. What we need now is two partner organisations to take the next step with us.</p>
 
   <div class="usp-box">
    <div class="usp-label">The core proposition</div>
@@ -79,6 +79,7 @@
   <h2>Imagine...</h2>
   <p>You are a manager who genuinely wants to develop your team - and also dreading the four one-to-ones, the team meeting, the two appraisals and the one seriously difficult conversation sitting in next week's diary. You have ARIA on your phone. ARIA is an expert in CEQ's full coaching methodology - OUCH!, GROW, the 7 Triggers, SuperListening, Logical Levels and BreakThrough - and in your company's mission, values, leadership competencies and people processes. And ARIA knows <em>you</em>: your psychometric profile, your 360 feedback, your strengths, your development areas, your habits under pressure. ARIA also knows your direct reports in similar depth, including exactly where they are on their OKRs and KPIs, with a cast-iron memory of every previous one-to-one.</p>
   <p>Instead of walking into next week with dread, ARIA briefs you. For each one-to-one you get a short, intelligently crafted preparation note: the two or three things you need to cover, the wording you might use, the concern your direct report raised last time, the strength to reinforce, the development area to hold in mind, and a personal watch-out for you. The meeting becomes something you look forward to rather than something you endure.</p>
+  <p>After the meeting, you upload the recording. ARIA transcribes it, identifies who said what, and delivers a full coaching critique. But this isn't a report you read once and put to one side. Through ARIA's Interactive Critique Panel, your transcript lights up with a colour-coded overlay showing your habits, positive behaviours and question types across every CEQ lens, from OUCH! and GROW through to SuperListening and BreakThrough. You click on a habit you didn't even realise you had and ARIA walks you through it: why it matters, what you could have done differently, and how it connects to the coaching framework behind it. You can then open a deeper conversation with ARIA about that one moment and work through it properly. Because ARIA also holds your company's playbook, leadership competencies and people processes, all of this is tied back to the way your organisation actually works, not just general coaching principles. The shift is from reading feedback to learning in the moment, with ARIA coaching you through your own conversation one step at a time.</p>
 
   <div class="callout">
    <strong>ARIA's basic measure of success:</strong> a manager's attitude towards their one-to-ones shifts - from chore to something they actively look forward to.
@@ -97,12 +98,20 @@
     <div class="card-desc">A live recorder using the user's own microphone and camera - audio only or video, straight onto the platform. Also supports pre-recorded video upload and live VC recording from Teams, Zoom and Google Meet.</div>
    </div>
    <div class="feature-card">
-    <div class="card-title">CEQ AI Critique with Lens Selection</div>
-    <div class="card-desc">OpenAI Whisper transcribes; Claude Sonnet critiques against CEQ's frameworks. Users choose a primary CEQ Lens (Overall, OUCH!, GROW, 7 Triggers, SuperListening, Logical Levels, BreakThrough or CEQ Methodology) to focus the analysis. Speaking time analysis always visible.</div>
+    <div class="card-title">Critique Engine with Lens Selection</div>
+    <div class="card-desc">OpenAI Whisper transcribes; Claude Sonnet identifies speakers and critiques against CEQ's frameworks. Users choose a primary CEQ Lens (Overall, OUCH!, GROW, 7 Triggers, SuperListening, Logical Levels, BreakThrough or CEQ Methodology) to focus the analysis. Speaking time analysis always visible.</div>
    </div>
    <div class="feature-card">
     <div class="card-title">Structured Transcript &amp; Navigation</div>
-    <div class="card-desc">Transcript broken into timed, speaker-coded chunks with a navigation bar. Quoted evidence in the critique links directly to the relevant section for easy cross-referencing.</div>
+    <div class="card-desc">AI speaker diarisation identifies Coach, Coachee and Observer turns automatically. Transcript is broken into timed, speaker-coded chunks with pagination and a jump-nav bar. Each section is labelled with the coach's key question. Quoted evidence links directly to the relevant passage.</div>
+   </div>
+   <div class="feature-card">
+    <div class="card-title">Coaching Overlay</div>
+    <div class="card-desc">The Interactive Critique Panel turns the critique from a static report into a hands-on learning experience. Toggle buttons activate a visual coaching overlay on the transcript across any CEQ lens. OUCH! habits, positive behaviours and question types are highlighted and colour-coded directly on the coach's turns. The company's own playbook, leadership competencies and people processes are also woven in, so feedback is always tied to how the organisation actually works.</div>
+   </div>
+   <div class="feature-card">
+    <div class="card-title">Click-to-Learn</div>
+    <div class="card-desc">Every highlighted moment in the transcript is clickable. Click it and you'll see why it was flagged, a better alternative question generated from CEQ's methodology, and a button to open a deeper coaching conversation with ARIA about that specific moment. ARIA coaches the user through their own conversation, one moment at a time.</div>
    </div>
    <div class="feature-card">
     <div class="card-title">Coaching Feedback, Ratings &amp; Recommendations</div>
@@ -150,12 +159,12 @@
   <p>On top of CEQ's IP engine, ARIA supports a four-layer training model that allows each organisation to embed its own leadership architecture directly into the platform:</p>
   <p><strong>Layer 1 - Company principles &amp; culture.</strong> Mission, vision, values, leadership competencies, team principles, cultural house style.</p>
   <p><strong>Layer 2 - People processes &amp; management playbook.</strong> One-to-ones, team meetings, huddles, skip-levels, OKR setting, performance management, talent development, KPI monitoring, appraisals, SOPs - the full operating model.</p>
-  <p><strong>Layer 3 - Manager cohort context.</strong> Role descriptions, competency profiles, objectives and deliverables for the specific group of managers using the platform.</p>
+  <p><strong>Layer 3 - Manager cohort context.</strong> Role descriptions, competency profiles, objectives and responsibilities for the specific group of managers using the platform.</p>
   <p><strong>Layer 4 - Individual manager profile.</strong> With appropriate consent, each manager's 360 feedback, appraisals, talent review data, psychometric profile, strengths, development areas and habits under pressure - plus the same depth on their direct reports.</p>
   <p>Once all four layers are in place, ARIA is no longer a generic coaching chatbot. It becomes a bespoke leadership companion that knows CEQ's coaching craft, your company's playbook, your cohort's context and each individual manager inside out - and brings all of that to bear, quietly and instantly, in the moments that matter.</p>
 
   <h2>What Sets ARIA Apart</h2>
-  <p>Generic "AI coach" chatbots are easy to build - most amount to little more than a chatbot with a coaching persona bolted on. ARIA is different because of the depth of what sits behind it: decades of CEQ's senior-level coaching IP, loaded in as a layered knowledge base; a platform built by practising coaches rather than a tech vendor; a design focused on raising the quality of real conversations rather than replacing them; a human-in-the-loop escalation path so any AI critique can be handed to a CEQ coach in one click; and a white-label deployment option so the platform can launch as the client's own leadership companion.</p>
+  <p>Generic "AI coach" chatbots are easy to build - most amount to little more than a chatbot with a coaching persona bolted on. ARIA is different because of the depth of what sits behind it: decades of CEQ's senior-level coaching IP, loaded in as a layered knowledge base; a platform built by practising coaches rather than a tech vendor; a critique engine that goes beyond feedback, turning the transcript itself into a clickable coaching tool grounded in CEQ's coaching methodology; a design focused on raising the quality of real conversations rather than replacing them; a human-in-the-loop escalation path so any AI critique can be handed to a CEQ coach in one click; and a white-label deployment option so the platform can launch as the client's own leadership companion.</p>
 
   <div class="pilot-box">
    <div class="pilot-label">Pilot Partner Invitation</div>
